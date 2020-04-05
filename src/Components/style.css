@@ -1,0 +1,29 @@
+main{
+    padding: 2vh 30%;
+}
+.faq-sec{
+    background-color: rgb(0, 71, 71);
+    color: white;
+    padding: 1vh 10%;
+    margin-top: 2px;
+}
+.faq-sec:nth-of-type(1){
+    border-radius: 40px 40px 0px 0px;
+}
+.faq-sec:nth-last-of-type(1){
+    border-radius: 0px 0px 40px 40px;
+}
+.faqitem-sec > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faqitem-sec > article{
+    
+}
+.faqitem-sec > article > div{
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
